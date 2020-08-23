@@ -256,9 +256,9 @@ func (c *Config) Unmarshal(b []byte) error {
 	}
 	unmarshalSubmodules(c.Raw, c.Submodules)
 
-	if err := c.unmarshalBranches(); err != nil {
-		return err
-	}
+	// ignore error
+	// Why ignore the error? It seems overly strict and for my use case none of the errors matter to me
+	c.unmarshalBranches()
 
 	return c.unmarshalRemotes()
 }
@@ -336,7 +336,7 @@ func (c *Config) unmarshalBranches() error {
 		b := &Branch{}
 
 		if err := b.unmarshal(sub); err != nil {
-			return err
+			// ignore error
 		}
 
 		c.Branches[b.Name] = b
