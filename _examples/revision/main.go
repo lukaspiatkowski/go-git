@@ -5,8 +5,8 @@ import (
 	"os"
 
 	"github.com/go-git/go-git/v5"
-	. "github.com/go-git/go-git/v5/_examples"
-	"github.com/go-git/go-git/v5/plumbing"
+	. "github.com/jesseduffield/go-git/_examples"
+	"github.com/jesseduffield/go-git/plumbing"
 )
 
 // Example how to resolve a revision into its commit counterpart

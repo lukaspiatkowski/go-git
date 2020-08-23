@@ -7,9 +7,9 @@ import (
 	"fmt"
 
 	"github.com/go-git/go-billy/v5"
-	"github.com/go-git/go-git/v5/config"
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/format/index"
+	"github.com/jesseduffield/go-git/config"
+	"github.com/jesseduffield/go-git/plumbing"
+	"github.com/jesseduffield/go-git/plumbing/format/index"
 )
 
 var (

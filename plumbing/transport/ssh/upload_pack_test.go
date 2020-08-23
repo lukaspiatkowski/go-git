@@ -12,8 +12,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/go-git/go-git/v5/plumbing/transport"
-	"github.com/go-git/go-git/v5/plumbing/transport/test"
+	"github.com/jesseduffield/go-git/plumbing/transport"
+	"github.com/jesseduffield/go-git/plumbing/transport/test"
 
 	"github.com/gliderlabs/ssh"
 	fixtures "github.com/go-git/go-git-fixtures/v4"

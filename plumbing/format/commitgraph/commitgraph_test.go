@@ -6,8 +6,8 @@ import (
 	"path"
 	"testing"
 
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/format/commitgraph"
+	"github.com/jesseduffield/go-git/plumbing"
+	"github.com/jesseduffield/go-git/plumbing/format/commitgraph"
 
 	fixtures "github.com/go-git/go-git-fixtures/v4"
 	. "gopkg.in/check.v1"

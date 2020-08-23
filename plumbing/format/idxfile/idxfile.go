@@ -7,7 +7,7 @@ import (
 
 	encbin "encoding/binary"
 
-	"github.com/go-git/go-git/v5/plumbing"
+	"github.com/jesseduffield/go-git/plumbing"
 )
 
 const (

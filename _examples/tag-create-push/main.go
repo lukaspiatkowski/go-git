@@ -7,10 +7,10 @@ import (
 	"os"
 
 	"github.com/go-git/go-git/v5"
-	. "github.com/go-git/go-git/v5/_examples"
-	"github.com/go-git/go-git/v5/config"
-	"github.com/go-git/go-git/v5/plumbing/object"
-	"github.com/go-git/go-git/v5/plumbing/transport/ssh"
+	. "github.com/jesseduffield/go-git/_examples"
+	"github.com/jesseduffield/go-git/config"
+	"github.com/jesseduffield/go-git/plumbing/object"
+	"github.com/jesseduffield/go-git/plumbing/transport/ssh"
 )
 
 // Example of how create a tag and push it to a remote.

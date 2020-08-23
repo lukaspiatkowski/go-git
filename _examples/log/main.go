@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"github.com/go-git/go-git/v5"
-	. "github.com/go-git/go-git/v5/_examples"
-	"github.com/go-git/go-git/v5/plumbing/object"
-	"github.com/go-git/go-git/v5/storage/memory"
+	. "github.com/jesseduffield/go-git/_examples"
+	"github.com/jesseduffield/go-git/plumbing/object"
+	"github.com/jesseduffield/go-git/storage/memory"
 )
 
 // Example of how to:

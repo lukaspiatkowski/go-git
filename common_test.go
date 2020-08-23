@@ -3,12 +3,12 @@ package git
 import (
 	"testing"
 
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/cache"
-	"github.com/go-git/go-git/v5/plumbing/format/packfile"
-	"github.com/go-git/go-git/v5/plumbing/transport"
-	"github.com/go-git/go-git/v5/storage/filesystem"
-	"github.com/go-git/go-git/v5/storage/memory"
+	"github.com/jesseduffield/go-git/plumbing"
+	"github.com/jesseduffield/go-git/plumbing/cache"
+	"github.com/jesseduffield/go-git/plumbing/format/packfile"
+	"github.com/jesseduffield/go-git/plumbing/transport"
+	"github.com/jesseduffield/go-git/storage/filesystem"
+	"github.com/jesseduffield/go-git/storage/memory"
 
 	"github.com/go-git/go-billy/v5"
 	"github.com/go-git/go-billy/v5/memfs"

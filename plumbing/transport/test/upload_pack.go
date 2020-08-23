@@ -10,12 +10,12 @@ import (
 	"io/ioutil"
 	"time"
 
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/format/packfile"
-	"github.com/go-git/go-git/v5/plumbing/protocol/packp"
-	"github.com/go-git/go-git/v5/plumbing/protocol/packp/capability"
-	"github.com/go-git/go-git/v5/plumbing/transport"
-	"github.com/go-git/go-git/v5/storage/memory"
+	"github.com/jesseduffield/go-git/plumbing"
+	"github.com/jesseduffield/go-git/plumbing/format/packfile"
+	"github.com/jesseduffield/go-git/plumbing/protocol/packp"
+	"github.com/jesseduffield/go-git/plumbing/protocol/packp/capability"
+	"github.com/jesseduffield/go-git/plumbing/transport"
+	"github.com/jesseduffield/go-git/storage/memory"
 
 	. "gopkg.in/check.v1"
 )

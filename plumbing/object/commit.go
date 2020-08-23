@@ -11,9 +11,9 @@ import (
 
 	"golang.org/x/crypto/openpgp"
 
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/storer"
-	"github.com/go-git/go-git/v5/utils/ioutil"
+	"github.com/jesseduffield/go-git/plumbing"
+	"github.com/jesseduffield/go-git/plumbing/storer"
+	"github.com/jesseduffield/go-git/utils/ioutil"
 )
 
 const (
