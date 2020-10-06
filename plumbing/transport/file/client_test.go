@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/jesseduffield/go-git/plumbing/transport"
+	"github.com/jesseduffield/go-git/v5/plumbing/transport"
 
 	. "gopkg.in/check.v1"
 )

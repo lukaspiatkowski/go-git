@@ -7,7 +7,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/jesseduffield/go-git/plumbing/format/pktline"
+	"github.com/jesseduffield/go-git/v5/plumbing/format/pktline"
 
 	. "gopkg.in/check.v1"
 )

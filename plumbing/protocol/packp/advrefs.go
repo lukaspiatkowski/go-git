@@ -5,10 +5,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/jesseduffield/go-git/plumbing"
-	"github.com/jesseduffield/go-git/plumbing/protocol/packp/capability"
-	"github.com/jesseduffield/go-git/plumbing/storer"
-	"github.com/jesseduffield/go-git/storage/memory"
+	"github.com/jesseduffield/go-git/v5/plumbing"
+	"github.com/jesseduffield/go-git/v5/plumbing/protocol/packp/capability"
+	"github.com/jesseduffield/go-git/v5/plumbing/storer"
+	"github.com/jesseduffield/go-git/v5/storage/memory"
 )
 
 // AdvRefs values represent the information transmitted on an

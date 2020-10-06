@@ -8,9 +8,9 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/jesseduffield/go-git/plumbing"
-	"github.com/jesseduffield/go-git/plumbing/format/idxfile"
-	"github.com/jesseduffield/go-git/plumbing/format/packfile"
+	"github.com/jesseduffield/go-git/v5/plumbing"
+	"github.com/jesseduffield/go-git/v5/plumbing/format/idxfile"
+	"github.com/jesseduffield/go-git/v5/plumbing/format/packfile"
 
 	"github.com/go-git/go-billy/v5/osfs"
 	fixtures "github.com/go-git/go-git-fixtures/v4"

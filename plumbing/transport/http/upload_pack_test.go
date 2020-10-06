@@ -6,10 +6,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/jesseduffield/go-git/plumbing"
-	"github.com/jesseduffield/go-git/plumbing/protocol/packp"
-	"github.com/jesseduffield/go-git/plumbing/transport"
-	"github.com/jesseduffield/go-git/plumbing/transport/test"
+	"github.com/jesseduffield/go-git/v5/plumbing"
+	"github.com/jesseduffield/go-git/v5/plumbing/protocol/packp"
+	"github.com/jesseduffield/go-git/v5/plumbing/transport"
+	"github.com/jesseduffield/go-git/v5/plumbing/transport/test"
 
 	fixtures "github.com/go-git/go-git-fixtures/v4"
 	. "gopkg.in/check.v1"

@@ -4,11 +4,11 @@ import (
 	"path"
 	"testing"
 
-	"github.com/jesseduffield/go-git/plumbing"
-	"github.com/jesseduffield/go-git/plumbing/cache"
-	"github.com/jesseduffield/go-git/plumbing/format/commitgraph"
-	"github.com/jesseduffield/go-git/plumbing/format/packfile"
-	"github.com/jesseduffield/go-git/storage/filesystem"
+	"github.com/jesseduffield/go-git/v5/plumbing"
+	"github.com/jesseduffield/go-git/v5/plumbing/cache"
+	"github.com/jesseduffield/go-git/v5/plumbing/format/commitgraph"
+	"github.com/jesseduffield/go-git/v5/plumbing/format/packfile"
+	"github.com/jesseduffield/go-git/v5/storage/filesystem"
 
 	fixtures "github.com/go-git/go-git-fixtures/v4"
 	. "gopkg.in/check.v1"

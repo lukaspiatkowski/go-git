@@ -3,9 +3,9 @@ package filesystem
 import (
 	"os"
 
-	"github.com/jesseduffield/go-git/config"
-	"github.com/jesseduffield/go-git/storage/filesystem/dotgit"
-	"github.com/jesseduffield/go-git/utils/ioutil"
+	"github.com/jesseduffield/go-git/v5/config"
+	"github.com/jesseduffield/go-git/v5/storage/filesystem/dotgit"
+	"github.com/jesseduffield/go-git/v5/utils/ioutil"
 )
 
 type ConfigStorage struct {

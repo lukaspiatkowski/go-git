@@ -3,10 +3,10 @@ package git
 import (
 	"fmt"
 
-	"github.com/jesseduffield/go-git/plumbing"
-	"github.com/jesseduffield/go-git/plumbing/filemode"
-	"github.com/jesseduffield/go-git/plumbing/object"
-	"github.com/jesseduffield/go-git/storage"
+	"github.com/jesseduffield/go-git/v5/plumbing"
+	"github.com/jesseduffield/go-git/v5/plumbing/filemode"
+	"github.com/jesseduffield/go-git/v5/plumbing/object"
+	"github.com/jesseduffield/go-git/v5/storage"
 )
 
 type objectWalker struct {

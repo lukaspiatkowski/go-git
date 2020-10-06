@@ -1,10 +1,10 @@
 package server
 
 import (
-	"github.com/jesseduffield/go-git/plumbing/cache"
-	"github.com/jesseduffield/go-git/plumbing/storer"
-	"github.com/jesseduffield/go-git/plumbing/transport"
-	"github.com/jesseduffield/go-git/storage/filesystem"
+	"github.com/jesseduffield/go-git/v5/plumbing/cache"
+	"github.com/jesseduffield/go-git/v5/plumbing/storer"
+	"github.com/jesseduffield/go-git/v5/plumbing/transport"
+	"github.com/jesseduffield/go-git/v5/storage/filesystem"
 
 	"github.com/go-git/go-billy/v5"
 	"github.com/go-git/go-billy/v5/osfs"

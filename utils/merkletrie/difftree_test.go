@@ -10,8 +10,8 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/jesseduffield/go-git/utils/merkletrie"
-	"github.com/jesseduffield/go-git/utils/merkletrie/internal/fsnoder"
+	"github.com/jesseduffield/go-git/v5/utils/merkletrie"
+	"github.com/jesseduffield/go-git/v5/utils/merkletrie/internal/fsnoder"
 
 	. "gopkg.in/check.v1"
 )

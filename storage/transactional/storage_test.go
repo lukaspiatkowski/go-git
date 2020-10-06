@@ -4,13 +4,13 @@ import (
 	"testing"
 
 	"github.com/go-git/go-billy/v5/memfs"
-	"github.com/jesseduffield/go-git/plumbing"
-	"github.com/jesseduffield/go-git/plumbing/cache"
-	"github.com/jesseduffield/go-git/plumbing/storer"
-	"github.com/jesseduffield/go-git/storage"
-	"github.com/jesseduffield/go-git/storage/filesystem"
-	"github.com/jesseduffield/go-git/storage/memory"
-	"github.com/jesseduffield/go-git/storage/test"
+	"github.com/jesseduffield/go-git/v5/plumbing"
+	"github.com/jesseduffield/go-git/v5/plumbing/cache"
+	"github.com/jesseduffield/go-git/v5/plumbing/storer"
+	"github.com/jesseduffield/go-git/v5/storage"
+	"github.com/jesseduffield/go-git/v5/storage/filesystem"
+	"github.com/jesseduffield/go-git/v5/storage/memory"
+	"github.com/jesseduffield/go-git/v5/storage/test"
 	. "gopkg.in/check.v1"
 )
 

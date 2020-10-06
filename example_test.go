@@ -8,11 +8,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/go-git/go-git/v5"
-	"github.com/jesseduffield/go-git/config"
-	"github.com/jesseduffield/go-git/plumbing"
-	"github.com/jesseduffield/go-git/plumbing/transport/http"
-	"github.com/jesseduffield/go-git/storage/memory"
+	"github.com/jesseduffield/go-git/v5"
+	"github.com/jesseduffield/go-git/v5/config"
+	"github.com/jesseduffield/go-git/v5/plumbing"
+	"github.com/jesseduffield/go-git/v5/plumbing/transport/http"
+	"github.com/jesseduffield/go-git/v5/storage/memory"
 
 	"github.com/go-git/go-billy/v5/memfs"
 )

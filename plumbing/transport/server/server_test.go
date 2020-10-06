@@ -3,13 +3,13 @@ package server_test
 import (
 	"testing"
 
-	"github.com/jesseduffield/go-git/plumbing/cache"
-	"github.com/jesseduffield/go-git/plumbing/transport"
-	"github.com/jesseduffield/go-git/plumbing/transport/client"
-	"github.com/jesseduffield/go-git/plumbing/transport/server"
-	"github.com/jesseduffield/go-git/plumbing/transport/test"
-	"github.com/jesseduffield/go-git/storage/filesystem"
-	"github.com/jesseduffield/go-git/storage/memory"
+	"github.com/jesseduffield/go-git/v5/plumbing/cache"
+	"github.com/jesseduffield/go-git/v5/plumbing/transport"
+	"github.com/jesseduffield/go-git/v5/plumbing/transport/client"
+	"github.com/jesseduffield/go-git/v5/plumbing/transport/server"
+	"github.com/jesseduffield/go-git/v5/plumbing/transport/test"
+	"github.com/jesseduffield/go-git/v5/storage/filesystem"
+	"github.com/jesseduffield/go-git/v5/storage/memory"
 
 	fixtures "github.com/go-git/go-git-fixtures/v4"
 	. "gopkg.in/check.v1"

@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/jesseduffield/go-git/plumbing"
+	"github.com/jesseduffield/go-git/v5/plumbing"
 
 	. "gopkg.in/check.v1"
 )

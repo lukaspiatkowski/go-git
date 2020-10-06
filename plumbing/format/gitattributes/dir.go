@@ -5,8 +5,8 @@ import (
 	"os/user"
 
 	"github.com/go-git/go-billy/v5"
-	"github.com/jesseduffield/go-git/plumbing/format/config"
-	gioutil "github.com/jesseduffield/go-git/utils/ioutil"
+	"github.com/jesseduffield/go-git/v5/plumbing/format/config"
+	gioutil "github.com/jesseduffield/go-git/v5/utils/ioutil"
 )
 
 const (

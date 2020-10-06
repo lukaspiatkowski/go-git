@@ -3,8 +3,8 @@ package transactional
 import (
 	"io"
 
-	"github.com/jesseduffield/go-git/plumbing/storer"
-	"github.com/jesseduffield/go-git/storage"
+	"github.com/jesseduffield/go-git/v5/plumbing/storer"
+	"github.com/jesseduffield/go-git/v5/storage"
 )
 
 // Storage is a transactional implementation of git.Storer, it demux the write

@@ -3,7 +3,7 @@ package memory
 import (
 	"testing"
 
-	"github.com/jesseduffield/go-git/storage/test"
+	"github.com/jesseduffield/go-git/v5/storage/test"
 	. "gopkg.in/check.v1"
 )
 

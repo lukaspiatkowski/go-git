@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-git/go-git/v5"
-	. "github.com/jesseduffield/go-git/_examples"
-	"github.com/jesseduffield/go-git/config"
-	"github.com/jesseduffield/go-git/plumbing"
-	"github.com/jesseduffield/go-git/storage/memory"
+	"github.com/jesseduffield/go-git/v5"
+	. "github.com/jesseduffield/go-git/v5/_examples"
+	"github.com/jesseduffield/go-git/v5/config"
+	"github.com/jesseduffield/go-git/v5/plumbing"
+	"github.com/jesseduffield/go-git/v5/storage/memory"
 )
 
 // Example of how to:
